@@ -1,0 +1,23 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "noImplicitAny": false,
+      "noEmitOnError": true,
+      "removeComments": false,
+      "sourceMap": true,
+      "target": "es5",
+      "module": "amd",
+      "rootDir": "Content",
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+      "lib": [ "dom", "ESNext" ],
+      "baseUrl": "Content",
+      "skipLibCheck": true,
+      "jsx": "react"
+    },
+    "include": [
+      "Content/**/*"
+    ]
+  }
